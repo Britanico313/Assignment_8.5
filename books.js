@@ -10,7 +10,7 @@ async function getBooks() {
 
     for (let book of books){
       let bookList = document.getElementById('books');
-      bookList.innerHTML += `<td>${book.Title}</td> <td>${book.Author}</td> <li>${book.ISBN}</td>`
+      bookList.innerHTML += `<td>${book.Title}</td> <td>${book.Author}</td> <td>${book.ISBN}</td>`
     }
   }
 
